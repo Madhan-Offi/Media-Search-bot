@@ -272,11 +272,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
         elif query.data == "about":
             buttons = [
                 [
-                    InlineKeyboardButton('Update Channel', url='https://t.me/MSPmoviesOffl'),
-                    InlineKeyboardButton('Source Code', url='https://t.me/MSPbots')
+                    InlineKeyboardButton('Update Channel', url='https://t.me/TamilPrime_LinkZz'),
+                    InlineKeyboardButton('Source Code', url='https://t.me/TamilPrime_LinkZz')
                 ]
                 ]
-            await query.message.edit(text="<b>Developer : <a href='https://t.me/BaashaBaii'>Baasha Baii</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/MSPbots'>Click here</a>\nHelp Group : <a href='https://t.me/MSPdiscussion'>MSP Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
+            await query.message.edit(text="<b>Developer : <a href='https://t.me/TAMILAN_MK'>Madhan</a>\nLanguage : <code>Python3</code>\nLibrary : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio</a>\nSource Code : <a href='https://t.me/TamilPrime_LinkZz'>Click here</a>\nHelp Group : <a href='https://t.me/TamilPrime_LinkZz'>Prime Bots</a> </b>", reply_markup=InlineKeyboardMarkup(buttons), disable_web_page_preview=True)
 
 
 
@@ -297,8 +297,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{files.file_name}"
                 buttons = [
                     [
-                        InlineKeyboardButton('Discussion', url='https://t.me/MSPdiscussion'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/MSPmoviesOffl')
+                        InlineKeyboardButton('Discussion', url='https://t.me/TamilPrime_LinkZz'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/TamilPrime_LinkZz')
                     ]
                     ]
                 
@@ -329,8 +329,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
                     f_caption = f"{title}"
                 buttons = [
                     [
-                         InlineKeyboardButton('Discussion', url='https://t.me/MSPdiscussion'),
-                        InlineKeyboardButton('Update Channel', url='https://t.me/MSPmoviesOffl')
+                         InlineKeyboardButton('Discussion', url='https://t.me/TamilPrime_LinkZz'),
+                        InlineKeyboardButton('Update Channel', url='https://t.me/TamilPrime_LinkZz')
                     ]
                     ]
                 
